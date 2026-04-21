@@ -117,9 +117,9 @@ export default function NavBar() {
           />
           <NavItem
             label="REPORTS"
-            isActive={pathname.startsWith('/reports')}
+            isActive={pathname === '/potential-lapse-report'}
             dropdown={[
-              { label: 'Renewal Premium Report', href: '/reports/renewal-premium' },
+              { label: 'Renewal Premium Report', href: '/potential-lapse-report' },
             ]}
           />
           <NavItem
